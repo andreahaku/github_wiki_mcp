@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "github-wiki": {
+      "command": "node",
+      "args": [
+        "/REPLACE/WITH/ABSOLUTE/PATH/github_wiki_mcp/dist/index.js"
+      ]
+    }
+  }
+}
