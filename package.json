@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "prepare": "npm run build"
+    "prepare": "pnpm build"
   },
   "keywords": [
     "mcp",

@@ -16,10 +16,10 @@ This MCP server exposes the following tools:
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Build the TypeScript project
-npm run build
+pnpm build
 ```
 
 ## Configuration
@@ -238,13 +238,13 @@ Claude will use:
 
 ```bash
 # Watch mode during development
-npm run dev
+pnpm dev
 
 # Production build
-npm run build
+pnpm build
 
 # Local installation for testing
-npm link
+pnpm link
 ```
 
 ## Troubleshooting
@@ -252,7 +252,7 @@ npm link
 ### Server doesn't connect
 
 - Verify that the path in `claude_desktop_config.json` is absolute and correct
-- Check that `npm run build` has been executed
+- Check that `pnpm build` has been executed
 - Verify Claude Desktop logs
 
 ### Authentication error
